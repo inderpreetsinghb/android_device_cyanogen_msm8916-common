@@ -109,6 +109,7 @@ BOARD_RAMDISK_OFFSET := 0x02000000
 TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916
 
 # Manifest
+DEVICE_MATRIX_FILE   := $(PLATFORM_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 
 # Media
